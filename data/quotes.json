@@ -1,0 +1,522 @@
+{
+  "life": [
+    "Life is what happens when you're busy making other plans.",
+    "The purpose of our lives is to be happy.",
+    "Life is short, and it is up to you to make it sweet.",
+    "Life is a journey, not a destination.",
+    "The best way to predict the future is to create it."
+  ],
+  "success": [
+    "Success usually comes to those who are too busy to be looking for it.",
+    "Success is not in what you have, but who you are.",
+    "The road to success and the road to failure are almost exactly the same.",
+    "Success is not the key to happiness. Happiness is the key to success.",
+    "The only place where success comes before work is in the dictionary."
+  ],
+  "motivation": [
+    "Don’t watch the clock; do what it does. Keep going.",
+    "You are never too old to set another goal or to dream a new dream.",
+    "The only way to do great work is to love what you do.",
+    "Believe you can and you’re halfway there.",
+    "The future belongs to those who believe in the beauty of their dreams."
+  ],
+  "love": [
+    "Love is composed of a single soul inhabiting two bodies.",
+    "To love and be loved is to feel the sun from both sides.",
+    "Love doesn’t make the world go round. Love is what makes the ride worthwhile.",
+    "The best thing to hold onto in life is each other.",
+    "Love is not only something you feel, it is something you do."
+  ],
+  "happiness": [
+    "Happiness is not something ready-made. It comes from your own actions.",
+    "The happiest people don’t have the best of everything, they make the best of everything.",
+    "Happiness is a choice, not a result.",
+    "The key to being happy is knowing you have the power to choose what to accept.",
+    "Happiness is not the absence of problems, it’s the courage to move through them."
+  ],
+  "inspiration": [
+    "The only limit to our realization of tomorrow is our doubts of today.",
+    "You don’t have to be great to start, but you have to start to be great.",
+    "The best time to plant a tree was 20 years ago. The second best time is now.",
+    "What you do today can improve all your tomorrows.",
+    "Dream big and dare to fail."
+  ],
+  "courage": [
+    "Courage doesn’t always roar. Sometimes it’s the quiet voice saying, ‘I will try again tomorrow.’",
+    "You gain strength, courage, and confidence by every experience in which you face fear.",
+    "The brave may not live forever, but the cautious do not live at all.",
+    "Courage is resistance to fear, mastery of fear—not absence of fear.",
+    "Take the risk or lose the chance."
+  ],
+  "wisdom": [
+    "The only true wisdom is in knowing you know nothing.",
+    "Turn your wounds into wisdom.",
+    "Wisdom is not a product of schooling but of the lifelong attempt to acquire it.",
+    "The wise man does at once what the fool does at last.",
+    "Knowledge speaks, but wisdom listens."
+  ],
+  "friendship": [
+    "A friend is one who knows you as you are and still invites you to grow.",
+    "Friendship is born when one person says to another, ‘What! You too?’",
+    "A real friend is one who walks in when the rest of the world walks out.",
+    "Friendship is the only cement that will ever hold the world together.",
+    "True friends are never apart, maybe in distance but never in heart."
+  ],
+  "dreams": [
+    "All our dreams can come true if we have the courage to pursue them.",
+    "The future belongs to those who believe in the beauty of their dreams.",
+    "Dream as if you’ll live forever, live as if you’ll die today.",
+    "A dream doesn’t become reality through magic; it takes sweat and hard work.",
+    "Don’t let your dreams be dreams."
+  ],
+  "hope": [
+    "Hope is the thing with feathers that perches in the soul.",
+    "When you’re at the end of your rope, tie a knot and hold on.",
+    "Hope is being able to see that there is light despite all of the darkness.",
+    "Keep your face to the sunshine and you cannot see a shadow.",
+    "Once you choose hope, anything’s possible."
+  ],
+  "perseverance": [
+    "It does not matter how slowly you go as long as you do not stop.",
+    "The difference between a successful person and others is not a lack of strength, but a lack of will.",
+    "Fall seven times, stand up eight.",
+    "Perseverance turns dreams into achievements.",
+    "The secret of success is to keep moving forward."
+  ],
+  "kindness": [
+    "No act of kindness, no matter how small, is ever wasted.",
+    "Kindness is a language which the deaf can hear and the blind can see.",
+    "A little kindness goes a long way.",
+    "Be kind whenever possible. It is always possible.",
+    "Kindness is the sunshine in which virtue grows."
+  ],
+  "leadership": [
+    "A leader is one who knows the way, goes the way, and shows the way.",
+    "The function of leadership is to produce more leaders, not more followers.",
+    "Leadership is not about being in charge. It’s about taking care of those in your charge.",
+    "To handle yourself, use your head; to handle others, use your heart.",
+    "Great leaders don’t create followers; they inspire others to become leaders."
+  ],
+  "gratitude": [
+    "Gratitude turns what we have into enough.",
+    "Acknowledging the good that you already have in your life is the foundation for all abundance.",
+    "Gratitude is the healthiest of all human emotions.",
+    "Be thankful for what you have; you’ll end up having more.",
+    "Gratitude makes sense of our past, brings peace for today, and creates a vision for tomorrow."
+  ],
+  "adventure": [
+    "Life is either a daring adventure or nothing at all.",
+    "The biggest adventure you can take is to live the life of your dreams.",
+    "Adventure is worthwhile in itself.",
+    "To live is to explore, to explore is to live.",
+    "The real adventure begins when you step out of your comfort zone."
+  ],
+  "peace": [
+    "Peace begins with a smile.",
+    "When the power of love overcomes the love of power, the world will know peace.",
+    "Peace is not absence of conflict, it is the ability to handle conflict by peaceful means.",
+    "Inner peace is the key to outer peace.",
+    "Peace is its own reward."
+  ],
+  "freedom": [
+    "Freedom is nothing but a chance to be better.",
+    "The price of freedom is eternal vigilance.",
+    "Freedom lies in being bold.",
+    "True freedom is the ability to live without fear.",
+    "Liberty, when it begins to take root, is a plant of rapid growth."
+  ],
+  "trust": [
+    "Trust is the glue of life. It’s the most essential ingredient in effective communication.",
+    "To be trusted is a greater compliment than being loved.",
+    "Trust takes years to build, seconds to break, and forever to repair.",
+    "Trust yourself, you know more than you think you do.",
+    "The best way to find out if you can trust somebody is to trust them."
+  ],
+  "change": [
+    "The only way to make sense out of change is to plunge into it, move with it, and join the dance.",
+    "Change is the law of life. And those who look only to the past or present are certain to miss the future.",
+    "You must be the change you wish to see in the world.",
+    "Change your thoughts and you change your world.",
+    "The greatest discovery of all time is that a person can change their future by merely changing their attitude."
+  ]
+  ,
+  "faith": [
+    "Faith is taking the first step even when you don’t see the whole staircase.",
+    "To one who has faith, no explanation is necessary. To one without faith, no explanation is possible.",
+    "Faith is the bird that feels the light when the dawn is still dark.",
+    "Doubt is a pain too lonely to know that faith is his twin brother.",
+    "Faith sees the invisible, believes the unbelievable, and receives the impossible."
+  ],
+  "patience": [
+    "Patience is not the ability to wait, but how you act while you’re waiting.",
+    "The key to everything is patience. You get the chicken by hatching the egg, not by smashing it.",
+    "Be patient. Good things take time.",
+    "Have patience. All things are difficult before they become easy."
+  ],
+  "honesty": [
+    "Honesty is the first chapter in the book of wisdom.",
+    "No legacy is so rich as honesty.",
+    "Honesty is the fastest way to prevent a mistake from turning into a failure.",
+    "Being honest may not get you a lot of friends, but it’ll always get you the right ones."
+  ],
+  "humility": [
+    "Humility is the solid foundation of all virtues.",
+    "Stay humble. Stay true.",
+    "Pride makes us artificial and humility makes us real.",
+    "True humility is not thinking less of yourself; it is thinking of yourself less."
+  ],
+  "learning": [
+    "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+    "The beautiful thing about learning is that no one can take it away from you.",
+    "Learning never exhausts the mind.",
+    "A wise man can learn more from a foolish question than a fool can learn from a wise answer."
+  ],
+  "failure": [
+    "Failure is simply the opportunity to begin again, this time more intelligently.",
+    "Only those who dare to fail greatly can ever achieve greatly.",
+    "Don’t fear failure. Fear being in the exact same place next year as you are today.",
+    "Failure is not the opposite of success, it’s part of success."
+  ],
+  "growth": [
+    "Growth is painful. Change is painful. But nothing is as painful as staying stuck somewhere you don’t belong.",
+    "Without continual growth and progress, such words as improvement, achievement, and success have no meaning.",
+    "Growth begins when we start to accept our own weakness.",
+    "Be not afraid of growing slowly; be afraid only of standing still."
+  ],
+  "self-discipline": [
+    "Discipline is choosing between what you want now and what you want most.",
+    "Without discipline, success is impossible, period.",
+    "Self-discipline is the magic power that makes you virtually unstoppable.",
+    "Discipline is the bridge between goals and accomplishment."
+  ],
+  "resilience": [
+    "Resilience is knowing that you are the only one that has the power and the responsibility to pick yourself up.",
+    "Life doesn’t get easier or more forgiving, we get stronger and more resilient.",
+    "The human capacity for burden is like bamboo—far more flexible than you’d ever believe at first glance.",
+    "Resilience is not about being unaffected by stress but knowing how to recover from it."
+  ],
+  "mindfulness": [
+    "Mindfulness is a way of befriending ourselves and our experience.",
+    "Be where you are, not where you think you should be.",
+    "Mindfulness means being awake. It means knowing what you are doing.",
+    "The present moment is the only time over which we have dominion."
+  ],
+  "focus": [
+    "Starve your distractions. Feed your focus.",
+    "The successful warrior is the average man, with laser-like focus.",
+    "Focus on being productive instead of busy.",
+    "Where focus goes, energy flows."
+  ],
+  "empathy": [
+    "Empathy is seeing with the eyes of another, listening with the ears of another, and feeling with the heart of another.",
+    "Whenever you are about to find fault with someone, ask yourself the following question: What fault of mine most nearly resembles the one I am about to criticize?",
+    "Empathy is about finding echoes of another person in yourself.",
+    "Empathy is the starting point for creating a community and taking action. It’s the impetus for creating change."
+  ],
+  "discipline": [
+    "Discipline equals freedom.",
+    "Your level of success is determined by your level of discipline and perseverance.",
+    "Discipline is doing what needs to be done, even if you don’t want to do it.",
+    "Discipline is the difference between what you want now and what you want most."
+  ],
+  "balance": [
+    "Happiness is not a matter of intensity but of balance and order and rhythm and harmony.",
+    "Balance is not something you find, it’s something you create.",
+    "A well-balanced person is one who finds both sides of an issue laughable.",
+    "Live a balanced life—learn some and think some and draw and paint and sing and dance and play and work every day some."
+  ],
+  "creativity": [
+    "Creativity is intelligence having fun.",
+    "You can’t use up creativity. The more you use, the more you have.",
+    "Creativity takes courage.",
+    "The chief enemy of creativity is ‘good’ sense."
+  ],
+  "imagination": [
+    "Imagination is more important than knowledge.",
+    "Logic will get you from A to B. Imagination will take you everywhere.",
+    "Imagination is the beginning of creation.",
+    "Everything you can imagine is real."
+  ],
+  "forgiveness": [
+    "To err is human; to forgive, divine.",
+    "Forgiveness is not an occasional act, it is a constant attitude.",
+    "Forgiveness liberates the soul. It removes fear.",
+    "Holding onto anger is like drinking poison and expecting the other person to die."
+  ],
+  "compassion": [
+    "Compassion is the basis of morality.",
+    "If you want others to be happy, practice compassion. If you want to be happy, practice compassion.",
+    "Compassion is the wish to see others free from suffering.",
+    "A kind gesture can reach a wound that only compassion can heal."
+  ],
+  "generosity": [
+    "No one has ever become poor by giving.",
+    "Generosity is giving more than you can, and pride is taking less than you need.",
+    "The heart that gives, gathers.",
+    "The most truly generous persons are those who give silently without hope of praise or reward."
+  ],
+  "simplicity": [
+    "Simplicity is the ultimate sophistication.",
+    "Life is really simple, but we insist on making it complicated.",
+    "Simplicity is the keynote of all true elegance.",
+    "The art of being wise is the art of knowing what to overlook."
+  ]
+  ,
+  "family": [
+    "Family is not an important thing, it’s everything.",
+    "In time of test, family is best.",
+    "The love of a family is life’s greatest blessing.",
+    "Family is where life begins and love never ends.",
+    "Nothing is better than going home to family and eating good food and relaxing."
+  ],
+  "health": [
+    "Health is the greatest gift, contentment the greatest wealth.",
+    "Take care of your body. It’s the only place you have to live.",
+    "To keep the body in good health is a duty… otherwise we shall not be able to keep our mind strong and clear.",
+    "A healthy outside starts from the inside."
+  ],
+  "time": [
+    "Time is what we want most, but what we use worst.",
+    "Lost time is never found again.",
+    "Time flies over us, but leaves its shadow behind.",
+    "The key is in not spending time, but in investing it."
+  ],
+  "money": [
+    "Too many people spend money they haven’t earned, to buy things they don’t want, to impress people they don’t like.",
+    "Money is a tool. Used properly it makes something beautiful; used wrong, it makes a mess.",
+    "Don’t let making a living prevent you from making a life.",
+    "It’s good to have money and the things that money can buy, but it’s good too to check up once in a while and make sure you haven’t lost the things money can’t buy."
+  ],
+  "work": [
+    "Choose a job you love, and you’ll never have to work a day in your life.",
+    "Work hard in silence; let success make the noise.",
+    "The only way to achieve the impossible is to believe it is possible.",
+    "Work gives you meaning and purpose and life is empty without it."
+  ],
+  "education": [
+    "Education is the most powerful weapon you can use to change the world.",
+    "The roots of education are bitter, but the fruit is sweet.",
+    "An investment in knowledge pays the best interest.",
+    "Education is not preparation for life; education is life itself."
+  ],
+ 
+  "self-love": [
+    "You yourself, as much as anybody in the entire universe, deserve your love and affection.",
+    "Talk to yourself like someone you love.",
+    "How you love yourself is how you teach others to love you.",
+    "Be proud of who you are, and not ashamed of how someone else sees you."
+  ],
+  "confidence": [
+    "Believe in yourself and all that you are.",
+    "With confidence, you have won before you have started.",
+    "Don’t be satisfied with stories, how things have gone with others. Unfold your own myth.",
+    "Confidence is not ‘they will like me.’ Confidence is ‘I’ll be fine if they don’t.’"
+  ],
+  "mindset": [
+    "Your mindset determines your success.",
+    "Whether you think you can or you think you can’t, you’re right.",
+    "A negative mind will never give you a positive life.",
+    "Change your mindset, change your life."
+  ],
+  "goals": [
+    "A goal without a plan is just a wish.",
+    "Setting goals is the first step in turning the invisible into the visible.",
+    "Dreams don’t work unless you do.",
+    "Discipline is the bridge between goals and accomplishment."
+  ],
+  "choices": [
+    "In the end, we only regret the chances we didn’t take.",
+    "Life is about choices. Some we regret, some we’re proud of.",
+    "Every choice you make makes you.",
+    "It is our choices that show what we truly are, far more than our abilities."
+  ],
+  "habits": [
+    "We are what we repeatedly do. Excellence, then, is not an act, but a habit.",
+    "Good habits are worth being fanatical about.",
+    "The chains of habit are too light to be felt until they are too heavy to be broken.",
+    "Motivation is what gets you started. Habit is what keeps you going."
+  ],
+  "hard work": [
+    "There is no substitute for hard work.",
+    "Success is the sum of small efforts, repeated day in and day out.",
+    "Hard work beats talent when talent doesn’t work hard.",
+    "Great things come from hard work and perseverance."
+  ],
+  "routine": [
+    "A daily routine built on good habits is the key to success.",
+    "Your future is hidden in your daily routine.",
+    "Success doesn't come from what you do occasionally, it comes from what you do consistently.",
+    "A strong morning routine sets the tone for the rest of your day."
+  ],
+  
+  "decision-making": [
+    "Sometimes the hardest thing and the right thing are the same.",
+    "In every success story, you will find someone who made a courageous decision.",
+    "Don’t base your decisions on the advice of those who don’t have to deal with the results.",
+    "It’s not hard to make decisions when you know what your values are."
+  ],
+  "risk": [
+    "Only those who will risk going too far can possibly find out how far one can go.",
+    "You cannot swim for new horizons until you have courage to lose sight of the shore.",
+    "Take risks: if you win, you will be happy; if you lose, you will be wise.",
+    "Life is either a daring adventure or nothing."
+  ],
+  "pain": [
+    "Your pain is the breaking of the shell that encloses your understanding.",
+    "Turn your wounds into wisdom.",
+    "Out of suffering have emerged the strongest souls.",
+    "Pain is inevitable. Suffering is optional."
+  ],
+  "healing": [
+    "Healing takes time, and asking for help is a courageous step.",
+    "The wound is the place where the light enters you.",
+    "Healing doesn’t mean the damage never existed. It means the damage no longer controls you.",
+    "You have the power to heal your life, and you need to know that."
+  ],
+  "memories": [
+    "Sometimes you will never know the value of a moment until it becomes a memory.",
+    "Memories are timeless treasures of the heart.",
+    "We do not remember days; we remember moments.",
+    "The best things in life are the people we love, the places we’ve been, and the memories we’ve made along the way."
+  ],
+  
+  "identity": [
+    "Don’t let anyone define who you are. Define yourself.",
+    "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    "Know who you are and be that.",
+    "Your identity is not in what you do, but in who you are."
+  ],
+  "purpose": [
+    "The two most important days in your life are the day you are born and the day you find out why.",
+    "Your purpose in life is to find your purpose and give your whole heart and soul to it.",
+    "Efforts and courage are not enough without purpose and direction.",
+    "When you live with purpose, you feel alive."
+  ],
+  "rest": [
+    "Rest is not idleness. It’s restoration.",
+    "Almost everything will work again if you unplug it for a few minutes… including you.",
+    "Rest when you’re weary. Refresh and renew yourself.",
+    "Taking time to do nothing often brings everything into perspective."
+  ],
+  
+  "emotions": [
+    "Feelings are much like waves. We can’t stop them from coming, but we can choose which one to surf.",
+    "Emotions are not problems to be solved. They are signals to be interpreted.",
+    "Don’t let your emotions overpower your intelligence.",
+    "It’s okay to feel. Just don’t let the feelings control you."
+  ],
+  "presence": [
+    "Wherever you are, be all there.",
+    "The present moment is filled with joy and happiness. If you are attentive, you will see it.",
+    "Don’t let yesterday take up too much of today.",
+    "This moment is all there is."
+  ],
+  "reputation": [
+    "It takes 20 years to build a reputation and five minutes to ruin it.",
+    "Your reputation is what others think of you; your character is what you truly are.",
+    "Live in such a way that if someone spoke badly of you, no one would believe it.",
+    "Your reputation is in the hands of others. That's what the reputation is. You can't control that."
+  ],
+  "truth": [
+    "The truth will set you free, but first it will piss you off.",
+    "Three things cannot be long hidden: the sun, the moon, and the truth.",
+    "Telling the truth and making someone cry is better than telling a lie and making someone smile.",
+    "Honesty is telling the truth to ourselves and others. Integrity is living that truth."
+  ]
+,
+
+  "vision": [
+    "Create the highest grandest vision possible for your life, because you become what you believe.",
+    "Vision without action is a dream. Action without vision is simply passing the time.",
+    "A strong vision draws in the right people and ideas.",
+    "You can't depend on your eyes when your imagination is out of focus.",
+    "Hold the vision, trust the process."
+  ],
+  
+  "boundaries": [
+    "Daring to set boundaries is about having the courage to love ourselves even when we risk disappointing others.",
+    "You teach people how to treat you by what you allow.",
+    "Boundaries are a part of self-care. They are healthy, normal, and necessary.",
+    "Sometimes the most loving thing you can do is say ‘no.’"
+  ],
+  
+  "legacy": [
+    "Carve your name on hearts, not tombstones.",
+    "Your legacy is every life you’ve touched.",
+    "We all die. The goal isn’t to live forever, the goal is to create something that will.",
+    "Leave the world better than you found it."
+  ],
+  "integrity": [
+    "Integrity is doing the right thing, even when no one is watching.",
+    "Your integrity determines your destiny.",
+    "In matters of style, swim with the current; in matters of principle, stand like a rock.",
+    "Live so that when your children think of fairness, caring, and integrity, they think of you."
+  ],
+  
+  "vulnerability": [
+    "Vulnerability is the birthplace of innovation, creativity, and change.",
+    "What makes you vulnerable makes you beautiful.",
+    "Being vulnerable is not a sign of weakness, it’s a sign of courage.",
+    "Sometimes you have to break to grow."
+  ],
+  "energy": [
+    "Protect your energy. It’s your most valuable currency.",
+    "Your energy introduces you before you even speak.",
+    "Where your attention goes, your energy flows.",
+    "Don’t chase energy. Attract it by being it."
+  ],
+  "self-awareness": [
+    "Self-awareness is the first step to self-improvement.",
+    "Knowing yourself is the beginning of all wisdom.",
+    "The unexamined life is not worth living.",
+    "Self-awareness allows you to see your strengths and weaknesses clearly."
+  ],
+  "self-acceptance": [
+    "Self-acceptance is the foundation of self-love.",
+    "You are enough just as you are.",
+    "Embrace who you are, flaws and all.",
+    "The most powerful relationship you will ever have is the relationship with yourself."
+  ],
+  "self-improvement": [
+    "The only person you are destined to become is the person you decide to be.",
+    "Self-improvement is a lifelong journey.",
+    "You can’t improve what you don’t measure.",
+    "Small daily improvements over time lead to stunning results."
+  ],
+  "self-care": [
+    "Self-care is not a luxury, it’s a necessity.",
+    "You can’t pour from an empty cup. Take care of yourself first.",
+    "Self-care is how you take your power back.",
+    "Taking care of yourself doesn’t mean me first, it means me too."
+  ],
+  "self-discovery": [
+    "The journey of self-discovery is the most important journey you will ever take.",
+    "Self-discovery is the process of finding out who you are and what you want.",
+    "You can’t discover new oceans unless you have the courage to lose sight of the shore.",
+    "The greatest discovery of all time is that a person can change their future by merely changing their attitude."
+  ],
+  "self-confidence": [
+    "Self-confidence is the first requisite to great undertakings.",
+    "Confidence comes not from always being right but from not fearing to be wrong.",
+    "Believe in yourself and all that you are. Know that there is something inside you that is greater than any obstacle.",
+    "Self-confidence is the memory of success."
+  ],
+  "self-esteem": [
+    "Self-esteem is as important to our well-being as legs are to a table.",
+    "Low self-esteem is like driving through life with your hand-break on.",
+    "You are worthy of love and respect just as you are.",
+    "Your self-worth is determined by you. You don’t have to depend on someone telling you who you are."
+  ],
+  "self-expression": [
+    "Self-expression is the most powerful form of self-discovery.",
+    "Your self-expression is your unique voice in the world.",
+    "The more you express yourself, the more you become who you are.",
+    "Self-expression is about being true to yourself and sharing that with the world."
+  ],
+  "self-reflection": [
+    "Self-reflection is the school of wisdom.",
+    "The unexamined life is not worth living.",
+    "Self-reflection is the key to personal growth.",
+    "Take time to reflect on your life and your choices."
+  ]
+}
