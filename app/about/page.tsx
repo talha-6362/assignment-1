@@ -20,7 +20,7 @@ import { Button } from '@/components/ui/button';
 
 export default function AboutPage() {
   const [isSliderPaused, setIsSliderPaused] = useState(false);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  
   const [activeLang, setActiveLang] = useState<string | null>(null);
   const sliderRef = useRef<HTMLDivElement>(null);
 
@@ -73,7 +73,7 @@ export default function AboutPage() {
       const rect = sliderRef.current.getBoundingClientRect();
       const x = (e.clientX - rect.left) / rect.width - 0.5;
       const y = (e.clientY - rect.top) / rect.height - 0.5;
-      setMousePosition({ x, y });
+      
     }
   };
 

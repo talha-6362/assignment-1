@@ -75,7 +75,7 @@ export default function TopicsPage() {
       {/* Grid of Topics */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
         {Object.entries(quotesData).map(([topic, quotes], index) => (
-          <Dialog key={topic} onOpenChange={(open) => setSelectedTopic(open ? topic : null)}>
+          <Dialog>
             <DialogTrigger asChild>
               <motion.div
                 className="bg-white/70 backdrop-blur-lg rounded-xl shadow-md p-6 cursor-pointer hover:shadow-xl hover:bg-gradient-to-br hover:from-indigo-100/50 hover:to-purple-100/50 transition-all duration-300"
