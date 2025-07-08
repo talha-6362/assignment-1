@@ -1,6 +1,5 @@
 'use client';
 
-import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
 
@@ -76,26 +75,32 @@ export default function TopicsPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
         {Object.entries(quotesData).map(([topic, quotes], index) => (
           <Dialog>
-            <DialogTrigger asChild>
-              <motion.div
-                className="bg-white/70 backdrop-blur-lg rounded-xl shadow-md p-6 cursor-pointer hover:shadow-xl hover:bg-gradient-to-br hover:from-indigo-100/50 hover:to-purple-100/50 transition-all duration-300"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.4, delay: index * 0.1 }}
-                whileHover={{
-                  scale: 1.05,
-                  rotateX: 10,
-                  rotateY: 10,
-                  boxShadow: '0 10px 20px rgba(0, 0, 0, 0.25)',
-                }}
-              >
-                <div className="flex items-center gap-3 mb-2">
-                  <Quote className="w-6 h-6 text-indigo-600" />
-                  <h2 className="text-lg font-semibold text-gray-800 capitalize">{topic}</h2>
-                </div>
-                <p className="text-sm text-gray-600 line-clamp-2">{quotes[0]}</p>
-              </motion.div>
-            </DialogTrigger>
+           <DialogTrigger asChild>
+  <motion.div
+    className="bg-white/70 backdrop-blur-lg rounded-xl shadow-md p-6 cursor-pointer hover:shadow-xl hover:bg-gradient-to-br hover:from-indigo-100/50 hover:to-purple-100/50 transition-all duration-300"
+    initial={{ opacity: 0, y: 20 }}
+    animate={{ opacity: 1, y: 0 }}
+    transition={{ duration: 0.4, delay: index * 0.1 }}
+    whileHover={{
+      scale: 1.05,
+      rotateX: 5,
+      rotateY: 5,
+      boxShadow: '0 10px 20px rgba(0, 0, 0, 0.25)',
+    }}
+    role="button"
+    tabIndex={0}
+    aria-label={`Open quotes for topic ${topic}`}
+  >
+    <div className="flex items-center gap-3 mb-2">
+      <Quote className="w-6 h-6 text-indigo-600" />
+      <h2 className="text-lg font-semibold text-gray-800 capitalize">{topic}</h2>
+    </div>
+    <p className="text-sm text-gray-600 line-clamp-2">
+      {quotes?.[0] || 'No quotes available for this topic.'}
+    </p>
+  </motion.div>
+</DialogTrigger>
+
 
             <DialogContent className="bg-white/70 backdrop-blur-lg border-2 border-transparent bg-clip-padding bg-gradient-to-r from-indigo-600/20 to-purple-600/20 rounded-xl max-w-lg">
               <DialogHeader>

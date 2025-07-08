@@ -71,8 +71,6 @@ export default function AboutPage() {
   const handleMouseMove = (e: MouseEvent) => {
     if (sliderRef.current) {
       const rect = sliderRef.current.getBoundingClientRect();
-      const x = (e.clientX - rect.left) / rect.width - 0.5;
-      const y = (e.clientY - rect.top) / rect.height - 0.5;
       
     }
   };
