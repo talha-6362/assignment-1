@@ -67,17 +67,19 @@ export default function AboutPage() {
     },
   ];
 
-  useEffect(() => {
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+
+useEffect(() => {
   const handleMouseMove = (e: MouseEvent) => {
-    if (sliderRef.current) {
-      const rect = sliderRef.current.getBoundingClientRect();
-      
-    }
+    const x = e.clientX;
+    const y = e.clientY;
+    setMousePosition({ x, y });
   };
 
   window.addEventListener('mousemove', handleMouseMove);
   return () => window.removeEventListener('mousemove', handleMouseMove);
 }, []);
+
 
   return (
     <motion.main
@@ -322,6 +324,10 @@ export default function AboutPage() {
             {/* Front Side */}
             <div
               className="absolute inset-0 p-4 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-lg transform rotate-y-0 backface-hidden transition-transform duration-700 group-hover:rotate-y-180"
+              style={{
+    transform: `rotateY(${mousePosition.x * 10}deg) rotateX(${mousePosition.y * -10}deg)`,
+    transition: 'transform 0.2s ease-out',
+  }}
             >
               <h3 className="text-sm font-semibold text-gray-800">{project.title}</h3>
               <p className="text-xs text-gray-600 mt-1">{project.description}</p>

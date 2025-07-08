@@ -1,6 +1,7 @@
 'use client';
 
-import { useState, useEffect,useMemo  } from 'react';
+import { useState, useEffect, useMemo, useCallback } from 'react';
+
 import { useSearchParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Button } from './ui/button';
@@ -44,46 +45,49 @@ export default function MainContent() {
   const [recentTopics, setRecentTopics] = useState<string[]>([]);
   const [isCarouselPaused, setIsCarouselPaused] = useState(false);
   const searchParams = useSearchParams();
+  const handleSearch = useCallback((topic: string) => {
+  if (fetching) return;
+  setFetching(true);
+  setSelectedTopic(topic);
+
+  setTimeout(() => {
+    const results = getQuotesByTopic(topic);
+    setQuotes(results ? results.slice(0, 3) : null);
+    setFetching(false);
+
+    // Load comments for the topic
+    const storedComments = localStorage.getItem(`comments_${topic}`);
+    setComments(storedComments ? JSON.parse(storedComments) : []);
+
+    // Update recent topics (limit to 6)
+    const updatedRecent = [topic, ...recentTopics.filter((t) => t !== topic)].slice(0, 6);
+    setRecentTopics(updatedRecent);
+    localStorage.setItem('recentTopics', JSON.stringify(updatedRecent));
+  }, 1000);
+}, [fetching, recentTopics]);
 
   useEffect(() => {
-    // Load data from local storage
-    const storedFavorites = localStorage.getItem('favorites');
-    if (storedFavorites) setFavorites(JSON.parse(storedFavorites));
-    const storedStats = localStorage.getItem('quoteStats');
-    if (storedStats) setQuoteStats(JSON.parse(storedStats));
-    const storedRecent = localStorage.getItem('recentTopics');
-    if (storedRecent) setRecentTopics(JSON.parse(storedRecent));
+  // Load data from local storage
+  const storedFavorites = localStorage.getItem('favorites');
+  if (storedFavorites) setFavorites(JSON.parse(storedFavorites));
+  const storedStats = localStorage.getItem('quoteStats');
+  if (storedStats) setQuoteStats(JSON.parse(storedStats));
+  const storedRecent = localStorage.getItem('recentTopics');
+  if (storedRecent) setRecentTopics(JSON.parse(storedRecent));
 
-    // Handle topic from query params
-    const topic = searchParams.get('topic');
-    if (topic) {
-      setSelectedTopic(topic);
-      handleSearch(topic);
-    }
-  }, [searchParams]);
+  // Handle topic from query params
+  const topic = searchParams.get('topic');
+  if (topic) {
+    setSelectedTopic(topic);
+    handleSearch(topic);
+  }
+}, [searchParams, handleSearch]);
+
   const dummyComments = useMemo(() => generateDummyComments(selectedTopic || 'life'), [selectedTopic]);
 
 
-  const handleSearch = (topic: string) => {
-    if (fetching) return;
-    setFetching(true);
-    setSelectedTopic(topic);
+  
 
-    setTimeout(() => {
-      const results = getQuotesByTopic(topic);
-      setQuotes(results ? results.slice(0, 3) : null);
-      setFetching(false);
-
-      // Load comments for the topic
-      const storedComments = localStorage.getItem(`comments_${topic}`);
-      setComments(storedComments ? JSON.parse(storedComments) : []);
-
-      // Update recent topics (limit to 6)
-      const updatedRecent = [topic, ...recentTopics.filter((t) => t !== topic)].slice(0, 6);
-      setRecentTopics(updatedRecent);
-      localStorage.setItem('recentTopics', JSON.stringify(updatedRecent));
-    }, 1000);
-  };
 
   const toggleFavorite = (quote: string) => {
     const updated = favorites.includes(quote)

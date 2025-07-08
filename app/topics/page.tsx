@@ -12,9 +12,10 @@ import {
   DialogTrigger,
 } from '@/components/ui/dialog';
 import { Quote } from 'lucide-react';
-import quotesData from '@/data/quotes.json'; // ✅ Direct import of local quotes file
+import quotesData from '@/data/quotes.json' assert { type: "json" }; // ✅ Direct import of local quotes file
 
 export default function TopicsPage() {
+  
   
   return (
     <motion.main
@@ -74,7 +75,7 @@ export default function TopicsPage() {
       {/* Grid of Topics */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 relative z-10">
         {Object.entries(quotesData).map(([topic, quotes], index) => (
-          <Dialog>
+  <Dialog key={topic}>
            <DialogTrigger asChild>
   <motion.div
     className="bg-white/70 backdrop-blur-lg rounded-xl shadow-md p-6 cursor-pointer hover:shadow-xl hover:bg-gradient-to-br hover:from-indigo-100/50 hover:to-purple-100/50 transition-all duration-300"
