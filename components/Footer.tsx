@@ -26,7 +26,7 @@ export default function Footer() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
-      {/* Decorative SVG Wave Top */}
+      {/* Decorative Wave Top */}
       <svg
         className="absolute top-0 left-0 w-full h-12 text-white fill-current"
         viewBox="0 0 1440 80"
@@ -35,8 +35,8 @@ export default function Footer() {
         <path d="M0,80 C480,10 960,150 1440,30 L1440,0 L0,0 Z" />
       </svg>
 
-      <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 relative z-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
           {/* Branding */}
           <motion.div
             className="bg-white/10 rounded-xl p-5 shadow-md backdrop-blur-md transition duration-300 hover:shadow-2xl"
@@ -46,7 +46,7 @@ export default function Footer() {
               <span className="text-2xl">🚀</span> Nexium Intern
             </h3>
             <p className="text-xs mt-2 leading-relaxed">
-              Built with <strong>Next.js</strong>, <strong>Tailwind</strong> & <strong>Framer Motion</strong> 💻
+              Built with <strong>Next.js</strong>, <strong>Tailwind</strong>, and <strong>Framer Motion</strong> 💻
             </p>
           </motion.div>
 
@@ -57,7 +57,7 @@ export default function Footer() {
           >
             <h4 className="text-md font-semibold mb-3">📬 Contact</h4>
             <ul className="text-xs space-y-2">
-              <li className="flex items-center gap-2">
+              <li className="flex items-center gap-2 break-all">
                 <Mail className="w-4 h-4" />
                 <a
                   href="mailto:talhamushtaq1064@gmail.com"
@@ -103,9 +103,9 @@ export default function Footer() {
           </motion.div>
         </div>
 
-        {/* Copyright & Back to Top */}
+        {/* Footer Bottom */}
         <div className="mt-10 flex flex-col items-center gap-4 text-xs opacity-80">
-          <p className="text-center">
+          <p className="text-center text-white/90">
             © {currentYear} Nexium Intern. All rights reserved.
           </p>
           <motion.button

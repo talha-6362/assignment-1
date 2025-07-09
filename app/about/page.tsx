@@ -2,7 +2,7 @@
 
 import { motion, AnimatePresence } from 'framer-motion';
 import Link from 'next/link';
-import { useState, useRef, useEffect } from 'react';
+import { useState, useRef } from 'react';
 import FooterNote from '@/components/FooterNote';
 import RadarChart from '@/components/RadarChart';
 import {
@@ -67,18 +67,18 @@ export default function AboutPage() {
     },
   ];
 
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  // const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
-useEffect(() => {
-  const handleMouseMove = (e: MouseEvent) => {
-    const x = e.clientX;
-    const y = e.clientY;
-    setMousePosition({ x, y });
-  };
+// // useEffect(() => {
+// //   const handleMouseMove = (e: MouseEvent) => {
+// //     const x = e.clientX;
+// //     const y = e.clientY;
+// //     setMousePosition({ x, y });
+// //   };
 
-  window.addEventListener('mousemove', handleMouseMove);
-  return () => window.removeEventListener('mousemove', handleMouseMove);
-}, []);
+//   window.addEventListener('mousemove', handleMouseMove);
+//   return () => window.removeEventListener('mousemove', handleMouseMove);
+// }, []);
 
 
   return (
@@ -287,9 +287,7 @@ useEffect(() => {
 </motion.div>
 
 
-      {/* Projects Slider */}
-
-  <motion.div
+     <motion.div
   className="bg-white/70 backdrop-blur-lg rounded-xl shadow-2xl p-6 sm:p-10 mb-12 relative z-10"
   initial={{ opacity: 0 }}
   animate={{ opacity: 1 }}
@@ -320,43 +318,38 @@ useEffect(() => {
           key={`${project.title}-${index}`}
           className="min-w-[280px] max-w-[280px] h-[220px] perspective-1000"
         >
-          <div className="relative w-full h-full preserve-3d group">
-            {/* Front Side */}
-            <div
-              className="absolute inset-0 p-4 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-lg transform rotate-y-0 backface-hidden transition-transform duration-700 group-hover:rotate-y-180"
-              style={{
-    transform: `rotateY(${mousePosition.x * 10}deg) rotateX(${mousePosition.y * -10}deg)`,
-    transition: 'transform 0.2s ease-out',
-  }}
-            >
-              <h3 className="text-sm font-semibold text-gray-800">{project.title}</h3>
-              <p className="text-xs text-gray-600 mt-1">{project.description}</p>
-              <div className="text-xs text-gray-600 mt-2">
-                <strong>Tech:</strong> {project.tech.join(', ')}
+          <div className="relative w-full h-full group preserve-3d duration-700 transform-style-3d">
+            {/* Flip Container */}
+            <div className="relative w-full h-full transition-transform duration-700 transform group-hover:rotate-y-180">
+              {/* Front Side */}
+              <div className="absolute inset-0 p-4 bg-gradient-to-br from-indigo-100 to-purple-100 rounded-lg backface-hidden">
+                <h3 className="text-sm font-semibold text-gray-800">{project.title}</h3>
+                <p className="text-xs text-gray-600 mt-1 line-clamp-3">{project.description}</p>
+                <div className="text-xs text-gray-600 mt-2">
+                  <strong>Tech:</strong> {project.tech.join(', ')}
+                </div>
               </div>
-            </div>
 
-            {/* Back Side */}
-            <div
-              className="absolute inset-0 p-4 bg-gradient-to-br from-indigo-200 to-purple-200 rounded-lg transform rotate-y-180 backface-hidden transition-transform duration-700 group-hover:rotate-y-0 flex items-center justify-center"
-            >
-              <div className="flex gap-3">
-                <a
-                  href={project.github}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-indigo-600 hover:underline text-xs"
-                >
-                  GitHub
-                </a>
-                <a
-                  href={project.demo}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-indigo-600 hover:underline text-xs"
-                >
-                  Live Demo
-                </a>
+              {/* Back Side */}
+              <div className="absolute inset-0 p-4 bg-gradient-to-br from-indigo-200 to-purple-200 rounded-lg backface-hidden transform rotate-y-180 flex items-center justify-center">
+                <div className="flex gap-3">
+                  <a
+                    href={project.github}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-indigo-700 hover:underline text-xs"
+                  >
+                    GitHub
+                  </a>
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-indigo-700 hover:underline text-xs"
+                  >
+                    Live Demo
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -365,6 +358,7 @@ useEffect(() => {
     </motion.div>
   </div>
 </motion.div>
+
 
 
 
